@@ -39,7 +39,7 @@ TABLE_1:
 0x15, | # Wario Land
 0x0C, | # Yoshi's Island
 0x11, | # Port Town Aero Dive
-0x3D, | # Delfino's Secret
+0x02, | # Delfino's Secret
 0x23, | # Dream Land
 0x1C, | # Green Hill Zone
 0x1A, | # Smashville
