@@ -1,1 +1,1 @@
-Compress-Archive -Path ./Build/ "Wii Build.zip"
+Compress-Archive -Path ./Build/ "ONPM Wii Build.zip"
