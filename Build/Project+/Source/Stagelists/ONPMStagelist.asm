@@ -46,8 +46,7 @@ TABLE_1:
 0x21, | # Golden Temple
 0x00, | # Battlefield
 0x28, | # Pokemon Stadium 2
-0x16  | # Distant Planet
-
+0x07  | # Rumble Falls
 
 TABLE_2:
 	byte[26] |
@@ -71,7 +70,7 @@ TABLE_2:
 0x26, | # Big Blue
 0x13, | # Flat Zone 2
 0x03, | # Luigi's Mansion
-0x07, | # Rumble Falls
+0x16, | # Distant Planet
 0x25, | # Corneria
 0x27, | # Planet Zebes
 0x1F, | # Temple
