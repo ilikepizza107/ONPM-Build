@@ -35,22 +35,22 @@ CODE @ $800B91C8
 .GOTO->SkipStageTables
 
 TABLE_1:
-	byte[10] |
-0x15, | # Wario Land
-0x0C, | # Yoshi's Island
+	byte[11] |
 0x11, | # Port Town Aero Dive
+0x1A, | # Smashville
+0x1C, | # Green Hill Zone
+0x0C, | # Yoshi's Island
 0x02, | # Delfino's Secret
 0x23, | # Dream Land
-0x1C, | # Green Hill Zone
-0x1A, | # Smashville
+0x0D, | # Halberd
+0x21, | # Golden Temple
 0x00, | # Battlefield
 0x28, | # Pokemon Stadium 2
-0x21  | # Golden Temple
-
+0x16  | # Distant Planet
 
 
 TABLE_2:
-	byte[27] |
+	byte[26] |
 0x08, | # Pirate Ship
 0x18, | # Fountain of Dreams
 0x14, | # Castle Siege
@@ -76,7 +76,6 @@ TABLE_2:
 0x27, | # Planet Zebes
 0x1F, | # Temple
 0x0A, | # Metroid Lab/Crateria
-0x16, | # Distant Planet
 0x2B  | # Training Room
 
 
@@ -85,7 +84,6 @@ TABLE_3:
 0x2E, | # Clock Tower
 0x10, | # Spear Pillar
 0x0F, | # Saffron City
-0x0D, | # Halberd
 0x0B, | # Frigate Orpheon
 0x17, | # Skyworld
 0x31, | # Dinosaur Land
@@ -100,6 +98,7 @@ TABLE_3:
 0x34, | # Bell Tower
 0x35, | # Norfair
 0x2F, | # Hanenbow
+0x15, | # Wario Land
 0x37, | # Venus Lighthouse
 0x2C, | # Dracula's Castle
 0x30, | # Dead Line
@@ -134,8 +133,8 @@ half[62] |	# Stage Count + 2
 SkipStageTables:
 .RESET
 * 20523400 00000000 # If 80523400 is equal to 0
-byte 10 @ $806B929C # Page 1
-byte 27 @ $806B92A4 # Page 2
+byte 11 @ $806B929C # Page 1
+byte 26 @ $806B92A4 # Page 2
 byte 22 @ $80496002 # Page 3
 byte 00 @ $80496003 # Page 4 (Unused)
 byte 00 @ $80496004 # Page 5 (Unused)
