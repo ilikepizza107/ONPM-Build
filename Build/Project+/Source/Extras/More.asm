@@ -6,7 +6,7 @@
 #.include source/Extras/USBGecko.asm 		# Adds support for Gecko codes passed in by a USB Gecko
 
 ############################################################################
-Set random stagelist based on Code Menu Stagelist setting (ONPM) [Bird]
+Set random stagelist based on Code Menu Stagelist setting (Nutlist) [Bird]
 ############################################################################
 * 20523400 00000000 # If Code Menu stagelist is set to 0
 * 20523310 00000000 # If 80523320 is 00000000
