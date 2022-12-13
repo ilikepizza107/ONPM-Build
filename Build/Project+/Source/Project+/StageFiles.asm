@@ -1234,7 +1234,7 @@ HOOK @ $8009D0C0
     stw r12, 0xB8(r3)       # sets Camera Speed from PAC, used to do so from f2
 }
 
-.include Source/Stagelists/ONPMStagelist.asm
+.include Source/Stagelists/NutlistStagelist.asm
 .include Source/Stagelists/Middle3Stagelist.asm
 .include Source/Stagelists/PMBRStagelist.asm
 
