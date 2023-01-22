@@ -19,16 +19,16 @@ Nutlist Stagelist [Bird]
 
 TABLE_1:
 	byte[11] |
-0x11, | # Port Town Aero Dive
-0x1A, | # Smashville
-0x1C, | # Green Hill Zone
 0x0C, | # Yoshi's Island
+0x1A, | # Smashville
+0x11, | # Port Town Aero Dive
+0x1C, | # Green Hill Zone
 0x02, | # Delfino's Secret
 0x23, | # Dream Land
 0x0D, | # Halberd
 0x21, | # Golden Temple
-0x00, | # Battlefield
 0x28, | # Pokemon Stadium 2
+0x00, | # Battlefield
 0x07  | # Rumble Falls
 
 TABLE_2:
