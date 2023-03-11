@@ -19,7 +19,7 @@ Nutlist Stagelist [Bird]
 
 TABLE_1:
 	byte[11] |
-0x0C, | # Yoshi's Island
+0x17, | # Skyworld
 0x1A, | # Smashville
 0x0D, | # Halberd
 0x1C, | # Green Hill Zone
@@ -67,7 +67,7 @@ TABLE_3:
 0x10, | # Spear Pillar
 0x0F, | # Saffron City
 0x0B, | # Frigate Orpheon
-0x17, | # Skyworld
+0x0C, | # Yoshi's Island
 0x31, | # Dinosaur Land
 0x2D, | # Mario Circuit
 0x38, | # Mushroom Kingdom
