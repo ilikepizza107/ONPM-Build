@@ -196,3 +196,18 @@ word[4] 0x11FF0E0F, 0x19B5, 0x80547660, 0			@ $80585E70
 byte[4] 0xF, 0x1, 0x10, 0x11 						@ $804557C8
 word 0xF 											@ $80AD836C
 word[4] 0x2C0C0B30, 0x19BD, 0x805474C8, 0x80000000	@ $80585E80
+
+########################################################
+Allow full CSS background animations [DukeItOut, mawwwk]
+########################################################
+HOOK @ $8068EAE8
+{
+    lfs f1, 0x0AE8(r25)     # Original op. Background speed of 0
+    cmpwi r21, 0            # Narrow down different models
+    bgt %END%
+    cmpwi r22, 0                    
+    bgt %END%
+    cmpwi r23, 1            
+    bne %END%
+    lfs f1, 0xE4(r13)       # Load 1.0 animation speed
+}
