@@ -24,12 +24,13 @@ TABLE_1:
 0x0D, | # Halberd
 0x1C, | # Green Hill Zone
 0x02, | # Delfino's Secret
-0x23, | # Dream Land
+0x06, | # Kongo Jungle
 0x11, | # Port Town Aero Dive
 0x21, | # Golden Temple
 0x28, | # Pokemon Stadium 2
 0x00, | # Battlefield
-0x07  | # Rumble Falls
+0x1B  | # Shadow Moses Island
+
 
 TABLE_2:
 	byte[26] |
@@ -46,8 +47,8 @@ TABLE_2:
 0x1E, | # Sky Sanctuary Zone
 0x09, | # Hyrule Castle
 0x12, | # Infinite Glacier
-0x1B, | # Shadow Moses Island
-0x06, | # Kongo Jungle
+0x07, | # Rumble Falls
+0x23, | # Dream Land
 0x19, | # Fourside
 0x22, | # Onett
 0x26, | # Big Blue
