@@ -25,17 +25,18 @@ TABLE_1:
 0x1C, | # Green Hill Zone
 0x02, | # Delfino's Secret
 0x06, | # Kongo Jungle
-0x11, | # Port Town Aero Dive
+0x19, | # Fourside
 0x21, | # Golden Temple
 0x28, | # Pokemon Stadium 2
 0x00, | # Battlefield
-0x1B  | # Shadow Moses Island
+0x18  | # Fountain of Dreams
+
 
 
 TABLE_2:
 	byte[26] |
-0x08, | # Pirate Ship
-0x18, | # Fountain of Dreams
+0x11, | # Port Town Aero Dive
+0x1B, | # Shadow Moses Island
 0x14, | # Castle Siege
 0x01, | # Final Destination
 0x20, | # Yoshi's Story
@@ -49,7 +50,7 @@ TABLE_2:
 0x12, | # Infinite Glacier
 0x07, | # Rumble Falls
 0x23, | # Dream Land
-0x19, | # Fourside
+0x08, | # Pirate Ship
 0x22, | # Onett
 0x26, | # Big Blue
 0x13, | # Flat Zone 2
