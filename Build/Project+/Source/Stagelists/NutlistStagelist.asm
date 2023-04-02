@@ -29,7 +29,8 @@ TABLE_1:
 0x21, | # Golden Temple
 0x28, | # Pokemon Stadium 2
 0x00, | # Battlefield
-0x18  | # Fountain of Dreams
+0x09  | # Hyrule Castle
+
 
 
 
@@ -46,7 +47,7 @@ TABLE_2:
 0x1D, | # PictoChat
 0x05, | # Bowser's Castle
 0x1E, | # Sky Sanctuary Zone
-0x09, | # Hyrule Castle
+0x18, | # Fountain of Dreams
 0x12, | # Infinite Glacier
 0x07, | # Rumble Falls
 0x23, | # Dream Land
