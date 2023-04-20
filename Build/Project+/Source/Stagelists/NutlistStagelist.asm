@@ -20,22 +20,23 @@ Nutlist Stagelist [Bird]
 TABLE_1:
 	byte[11] |
 0x17, | # Skyworld
-0x1A, | # Smashville
+0x21, | # Golden Temple
+0x09, | # Hyrule Castle
 0x0D, | # Halberd
+0x28, | # Pokemon Stadium 2
+0x06, | # Kongo Jungle
+0x1E, | # Sky Sanctuary Zone
 0x1C, | # Green Hill Zone
 0x02, | # Delfino's Secret
-0x06, | # Kongo Jungle
-0x19, | # Fourside
-0x21, | # Golden Temple
-0x28, | # Pokemon Stadium 2
 0x00, | # Battlefield
-0x09  | # Hyrule Castle
+0x1A  | # Smashville
 
 
 
 
 TABLE_2:
 	byte[26] |
+0x19, | # Fourside
 0x11, | # Port Town Aero Dive
 0x1B, | # Shadow Moses Island
 0x14, | # Castle Siege
@@ -46,7 +47,6 @@ TABLE_2:
 0x04, | # Metal Cavern
 0x1D, | # PictoChat
 0x05, | # Bowser's Castle
-0x1E, | # Sky Sanctuary Zone
 0x18, | # Fountain of Dreams
 0x12, | # Infinite Glacier
 0x07, | # Rumble Falls
