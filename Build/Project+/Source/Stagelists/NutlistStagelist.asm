@@ -20,16 +20,19 @@ Nutlist Stagelist [Bird]
 TABLE_1:
 	byte[11] |
 0x17, | # Skyworld
-0x21, | # Golden Temple
-0x09, | # Hyrule Castle
-0x0D, | # Halberd
-0x28, | # Pokemon Stadium 2
-0x06, | # Kongo Jungle
-0x1E, | # Sky Sanctuary Zone
 0x1C, | # Green Hill Zone
 0x02, | # Delfino's Secret
+0x21, | # Golden Temple
+0x09, | # Hyrule Castle
+0x06, | # Kongo Jungle
+0x1E, | # Sky Sanctuary Zone
+0x1A, | # Smashville
 0x00, | # Battlefield
-0x1A  | # Smashville
+0x28, | # Pokemon Stadium 2
+0x0D  | # Halberd
+
+
+
 
 
 
