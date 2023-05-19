@@ -20,10 +20,10 @@ Proposed Ruleset Stagelist [Bird]
 TABLE_1:
 	byte[11] |
 0x0C, | # Yoshi's Island
-0x09, | # Hyrule Castle
+0x0B, | # Frigate Orpheon
 0x23, | # Dream Land
 0x01, | # Final Destination
-0x13, | # Castle Siege
+0x1F, | # Temple
 0x1A, | # Smashville
 0x00, | # Battlefield
 0x28, | # Pokemon Stadium 2
@@ -56,7 +56,7 @@ TABLE_2:
 0x16, | # Distant Planet
 0x25, | # Corneria
 0x27, | # Planet Zebes
-0x1F, | # Temple
+0x13, | # Castle Siege
 0x0A, | # Metroid Lab/Crateria
 0x2B  | # Training Room
 
@@ -66,7 +66,7 @@ TABLE_3:
 0x2E, | # Clock Tower
 0x10, | # Spear Pillar
 0x0F, | # Saffron City
-0x0B, | # Frigate Orpheon
+0x09, | # Hyrule Castle
 0x17, | # Skyworld
 0x31, | # Dinosaur Land
 0x2D, | # Mario Circuit
