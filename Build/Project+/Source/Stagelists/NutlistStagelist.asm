@@ -19,26 +19,25 @@ Nutlist Stagelist [Bird]
 
 TABLE_1:
 	byte[11] |
-0x17, | # Skyworld
 0x1C, | # Green Hill Zone
 0x02, | # Delfino's Secret
 0x21, | # Golden Temple
 0x09, | # Hyrule Castle
-0x06, | # Kongo Jungle
 0x1E, | # Sky Sanctuary Zone
 0x1A, | # Smashville
 0x00, | # Battlefield
 0x28, | # Pokemon Stadium 2
-0x0D  | # Halberd
-
-
-
-
-
+0x0D, | # Halberd
+0x2B, | # Training Room
+0x2B  | # Training Room
 
 
 TABLE_2:
-	byte[26] |
+	byte[29] |
+0x0B, | # Frigate Orpheon
+0x1F, | # Temple
+0x06, | # Kongo Jungle
+0x17, | # Skyworld
 0x19, | # Fourside
 0x11, | # Port Town Aero Dive
 0x1B, | # Shadow Moses Island
@@ -62,17 +61,15 @@ TABLE_2:
 0x16, | # Distant Planet
 0x25, | # Corneria
 0x27, | # Planet Zebes
-0x1F, | # Temple
 0x0A, | # Metroid Lab/Crateria
 0x2B  | # Training Room
 
 
 TABLE_3:
-	byte[22] |
+	byte[21] |
 0x2E, | # Clock Tower
 0x10, | # Spear Pillar
 0x0F, | # Saffron City
-0x0B, | # Frigate Orpheon
 0x0C, | # Yoshi's Island
 0x31, | # Dinosaur Land
 0x2D, | # Mario Circuit
@@ -122,9 +119,9 @@ SkipStageTables:
 .RESET
 * 20523400 00000000 # If 80523400 is equal to 0
 byte 11 @ $806B929C # Page 1
-byte 26 @ $806B92A4 # Page 2
-byte 22 @ $80496002 # Page 3
+byte 29 @ $806B92A4 # Page 2
+byte 21 @ $80496002 # Page 3
 byte 00 @ $80496003 # Page 4 (Unused)
 byte 00 @ $80496004 # Page 5 (Unused)
-byte 60 @ $800AF673 # Stage Count
+byte 61 @ $800AF673 # Stage Count
 * E0000000 80008000
