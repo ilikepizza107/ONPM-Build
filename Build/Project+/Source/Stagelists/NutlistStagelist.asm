@@ -32,6 +32,11 @@ TABLE_1:
 0x0D  | # Halberd
 
 
+
+
+
+
+
 TABLE_2:
 	byte[26] |
 0x19, | # Fourside
@@ -117,9 +122,9 @@ SkipStageTables:
 .RESET
 * 20523400 00000000 # If 80523400 is equal to 0
 byte 11 @ $806B929C # Page 1
-byte 29 @ $806B92A4 # Page 2
-byte 21 @ $80496002 # Page 3
+byte 26 @ $806B92A4 # Page 2
+byte 22 @ $80496002 # Page 3
 byte 00 @ $80496003 # Page 4 (Unused)
 byte 00 @ $80496004 # Page 5 (Unused)
-byte 61 @ $800AF673 # Stage Count
+byte 60 @ $800AF673 # Stage Count
 * E0000000 80008000
