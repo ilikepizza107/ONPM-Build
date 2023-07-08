@@ -19,12 +19,7 @@
 ######################          Backend Codes          ######################
 #############################################################################
 
-.include Source/LoadFiles.asm # Enables fudgepop's training mode
-
-##########################################
-[Project+] Skip strap screen [PyotrLuzhin]
-##########################################
-op b 0x298		@ $806CADE8
+# .include Source/LoadFiles.asm # Enables fudgepop's training mode; this is unstable on console, so is disabled for the console version of the build. If you'd like to enable it, delete the # and recompile your codesets!
 
 #############################################################################
 AXNextFrame -> VBI Hook Switch After Strap Screen v1.1 [Magus, Sammi-Husky]
