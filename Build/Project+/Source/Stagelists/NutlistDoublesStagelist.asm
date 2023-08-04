@@ -1,7 +1,7 @@
 i######################################################################################
 Nutlist Doubles Stagelist [Bird]
 ######################################################################################
-* 20523400 00000000 # If 80523400 is equal to 1
+* 20523400 00000001 # If 80523400 is equal to 1
 
 .BA<-TABLE_STAGES
 .BA->$80495D00
@@ -19,30 +19,30 @@ Nutlist Doubles Stagelist [Bird]
 
 TABLE_1:
 	byte[11] |
-0x1C, | # Green Hill Zone
-0x02, | # Delfino's Secret
-0x21, | # Golden Temple
+0x0B, | # Frigate Orpheon
+0x17, | # Skyworld
+0x07, | # Rumble Falls
 0x09, | # Hyrule Castle
-0x1E, | # Sky Sanctuary Zone
+0x1B, | # Shadow Moses Island
 0x1A, | # Smashville
-0x00, | # Battlefield
-0x28, | # Pokemon Stadium 2
 0x0D, | # Halberd
+0x28, | # Pokemon Stadium 2
+0x01, | # Final Destination
 0x2B, | # Training Room
 0x2B  | # Training Room
 
 
 TABLE_2:
 	byte[29] |
-0x0B, | # Frigate Orpheon
+0x1C, | # Green Hill Zone
 0x1F, | # Temple
 0x06, | # Kongo Jungle
-0x17, | # Skyworld
+0x02, | # Delfino's Secret
 0x19, | # Fourside
 0x11, | # Port Town Aero Dive
-0x1B, | # Shadow Moses Island
+0x1E, | # Sky Sanctuary Zone
 0x14, | # Castle Siege
-0x01, | # Final Destination
+0x00, | # Battlefield
 0x20, | # Yoshi's Story
 0x24, | # Peach's Castle
 0x0E, | # Lylat Cruise
@@ -51,7 +51,7 @@ TABLE_2:
 0x05, | # Bowser's Castle
 0x18, | # Fountain of Dreams
 0x12, | # Infinite Glacier
-0x07, | # Rumble Falls
+0x21, | # Golden Temple
 0x23, | # Dream Land
 0x08, | # Pirate Ship
 0x22, | # Onett
@@ -117,7 +117,7 @@ half[62] |	# Stage Count + 2
 
 SkipStageTables:
 .RESET
-* 20523400 00000000 # If 80523400 is equal to 1
+* 20523400 00000001 # If 80523400 is equal to 1
 byte 11 @ $806B929C # Page 1
 byte 29 @ $806B92A4 # Page 2
 byte 21 @ $80496002 # Page 3
