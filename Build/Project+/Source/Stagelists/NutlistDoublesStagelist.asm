@@ -25,7 +25,7 @@ TABLE_1:
 0x09, | # Hyrule Castle
 0x1B, | # Shadow Moses Island
 0x1A, | # Smashville
-0x0D, | # Halberd
+0x03, | # Luigi's Mansion
 0x28, | # Pokemon Stadium 2
 0x01, | # Final Destination
 0x2B, | # Training Room
@@ -57,7 +57,7 @@ TABLE_2:
 0x22, | # Onett
 0x26, | # Big Blue
 0x13, | # Flat Zone 2
-0x03, | # Luigi's Mansion
+0x0D, | # Halberd
 0x16, | # Distant Planet
 0x25, | # Corneria
 0x27, | # Planet Zebes

@@ -20,23 +20,25 @@ Nutlist Stagelist [Bird]
 TABLE_1:
 	byte[11] |
 0x1C, | # Green Hill Zone
-0x02, | # Delfino's Secret
-0x21, | # Golden Temple
-0x09, | # Hyrule Castle
-0x1E, | # Sky Sanctuary Zone
 0x1A, | # Smashville
+0x21, | # Golden Temple
+0x06, | # Kongo Jungle
+0x2B, | # Training Room
+0x02, | # Delfino's Secret
 0x00, | # Battlefield
 0x28, | # Pokemon Stadium 2
-0x0D, | # Halberd
+0x2B, | # Training Room
 0x2B, | # Training Room
 0x2B  | # Training Room
 
 
 TABLE_2:
-	byte[29] |
+	byte[31] |
+0x1E, | # Sky Sanctuary Zone
+0x03, | # Luigi's Mansion
 0x0B, | # Frigate Orpheon
 0x1F, | # Temple
-0x06, | # Kongo Jungle
+0x09, | # Hyrule Castle
 0x17, | # Skyworld
 0x19, | # Fourside
 0x11, | # Port Town Aero Dive
@@ -57,7 +59,7 @@ TABLE_2:
 0x22, | # Onett
 0x26, | # Big Blue
 0x13, | # Flat Zone 2
-0x03, | # Luigi's Mansion
+0x0D, | # Halberd
 0x16, | # Distant Planet
 0x25, | # Corneria
 0x27, | # Planet Zebes

@@ -699,11 +699,13 @@ HOOK @ $801C8370
   ori r12, r12, 0x89FC	# |
   mtctr r12				# |branch to 803F89FC (sprintf/printf.o)
   bctrl 				#/
+  cmpwi r26, 0xE0   #   \ subspace
+  beq+ stageBank    #   /
   cmpwi r26, 0x53		#\ Skip if not a normal stage soundbank
   blt+ NormalBank		# |
   cmpwi r26, 0x77		# |Stage soundbanks are range 0x53-0x77	(really 0x4C-70)
   bgt+ NormalBank		#/
-  
+  stageBank:
   mr r4, r5				#
   lis r5, 0x5F00		# \ Concatenate "_"
   stw r5, 0x20(r1)		# /

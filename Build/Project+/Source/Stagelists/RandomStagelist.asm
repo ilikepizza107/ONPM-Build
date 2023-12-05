@@ -10,7 +10,7 @@ Set random stagelist based on Code Menu Stagelist setting (Nutlist) [ilikepizza1
 * 04523350 00000000
 * 04523360 00000000
 * 42000000 90000000 #Set base address to 90000000
-* 0417BE74 54002205 # Brawl stages
+* 0417BE74 14000045 # Brawl stages
 * 0417BE70 00020400 # Melee stages
 * E0000000 80008000
 
