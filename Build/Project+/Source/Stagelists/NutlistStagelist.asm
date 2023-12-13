@@ -22,7 +22,7 @@ TABLE_1:
 0x1C, | # Green Hill Zone
 0x1A, | # Smashville
 0x21, | # Golden Temple
-0x06, | # Kongo Jungle
+0x03, | # Luigi's Mansion
 0x2B, | # Training Room
 0x02, | # Delfino's Secret
 0x00, | # Battlefield
@@ -33,9 +33,10 @@ TABLE_1:
 
 
 TABLE_2:
-	byte[31] |
+	byte[32] |
+0x2B, | # Training Room
 0x1E, | # Sky Sanctuary Zone
-0x03, | # Luigi's Mansion
+0x06, | # Kongo Jungle
 0x0B, | # Frigate Orpheon
 0x1F, | # Temple
 0x09, | # Hyrule Castle
